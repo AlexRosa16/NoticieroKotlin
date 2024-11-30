@@ -43,21 +43,21 @@ class NoticiasActivity : AppCompatActivity() {
             Noticia(
                 3,
                 "El chavismo carga contra Brasil",
-                "El chavismo carga contra Brasil: O nos respeta o haremos que nos respete",
+                "La Cancillería de Venezuela llama a consultas a su embajador en Brasilia en una escalada de las tensiones tras el veto impuesto por Lula a Maduro en los BRICS",
                 "2024-10-30",
                 "https://imagenes.elpais.com/resizer/v2/FVOP222RDMXQQDXJ3X3UBX7QTI.jpg?auth=70218f86750613c19a61ed008a927f691d038774eb315fc009efc75d94a9c7d4&width=1200",
                 "https://elpais.com/america/2024-10-30/el-chavismo-carga-contra-brasil-o-nos-respeta-o-haremos-que-nos-respete.html"
             ),
             Noticia(4,
             "Pedro Sánchez, un tercer mandato de vértigo en el PSOE",
-            "Pedro Sánchez, un tercer mandato de vértigo en el PSOE",
+            "La hazaña del 23-J reforzó la autoridad del líder que, por primera vez, ha tenido contestación interna por la financiación catalana y desconcertó en abril con su amago de dimisión: “Algo se nos rompió”",
             "2024-11-24",
             "https://imagenes.elpais.com/resizer/v2/6344ZIH5IRAKVFNC3T7EA4XL6A.jpg?auth=eb35416fce1799be9117f716c9483a5ede8940ab3c2a44e3156766648ef9c9d7&width=980",
             "https://elpais.com/espana/2024-11-29/pedro-sanchez-un-tercer-mandato-de-vertigo-en-el-psoe-para-el-futuro-mas-incierto.html"
         ), Noticia(
             5,
             "Jugada redonda de Vox y rechinar de dientes de FAES",
-            "Jugada redonda de Vox y rechinar de dientes de FAES",
+            "El triunfo de Trump confirma el acierto de Vox al apostar por Orbán y legitima su política basada en la mentira y el insulto",
             "2024-11-07",
             "https://imagenes.elpais.com/resizer/v2/5TFPBNFGRJCZBAAII3KP537NEY.jpg?auth=36040122ce6aea7db50716474763ad78d1bc34622916da6099a8c4d7ed7e4e18&width=980",
             "https://elpais.com/espana/2024-11-07/jugada-redonda-de-vox-y-chirriar-de-dientes-de-faes.html"
