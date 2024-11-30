@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Noticiero Alex</string>
+    <string name="tied_user">Usuario</string>
+    <string name="tied_password">Password</string>
+    <string name="btn_Login">Login</string>
+    <string name="txtnoticiero">Noticiero</string>
+    <string name="hintpass">Password</string>
+    <string name="hintusuario">Usuario</string>
+</resources>

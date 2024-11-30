@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".NoticiasActivity">
+
+
+    <ImageView
+        android:id="@+id/ntImageViewFondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/noticierotitle"
+        android:text="@string/txtnoticiero"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="@dimen/middle_margin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ntTextInputLayoutuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/lowmargin"
+        android:hint="@string/hintusuario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:boxBackgroundMode="outline"
+        app:boxBackgroundColor="@android:color/white"
+        >
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ntTextInputEditTextuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tied_user" />
+</com.google.android.material.textfield.TextInputLayout>
+
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/ntTextInputLayoutpassword"
+    android:layout_margin="@dimen/lowmargin"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:hint="@string/hintpass"
+    app:layout_constraintTop_toBottomOf="@+id/ntTextInputLayoutuser"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:boxBackgroundMode="outline"
+    app:boxStrokeColor="@color/moradonoche"
+    app:boxBackgroundColor="@color/white">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ntTextInputEditTextpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tied_password"
+
+
+        />
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/ntButtonLogin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/btn_Login"
+    android:layout_margin="@dimen/lowmargin"
+    app:layout_constraintTop_toBottomOf="@+id/ntTextInputLayoutpassword"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:backgroundTint="@color/moradonoche"
+
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
