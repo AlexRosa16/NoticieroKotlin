@@ -56,30 +56,31 @@ tools:context=".NoticiasActivity">
 </com.google.android.material.textfield.TextInputLayout>
 
 
-<com.google.android.material.textfield.TextInputLayout
-    android:id="@+id/ntTextInputLayoutpassword"
-    android:layout_margin="@dimen/lowmargin"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:hint="@string/hintpass"
-    app:layout_constraintTop_toBottomOf="@+id/ntTextInputLayoutuser"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:boxBackgroundMode="outline"
-    app:boxStrokeColor="@color/moradonoche"
-    app:boxBackgroundColor="@color/white">
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/ntTextInputEditTextpassword"
-        android:layout_width="match_parent"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ntTextInputLayoutpassword"
+        android:layout_margin="@dimen/lowmargin"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/tied_password"
+        android:hint="@string/hintpass"
+        app:layout_constraintTop_toBottomOf="@+id/ntTextInputLayoutuser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/moradonoche"
+        app:boxBackgroundColor="@color/white"
+        app:endIconMode="custom"
+        app:endIconDrawable="@drawable/ic_visibility_off">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ntTextInputEditTextpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:text="@string/tied_password" />
+    </com.google.android.material.textfield.TextInputLayout>
 
 
-        />
-</com.google.android.material.textfield.TextInputLayout>
-
-<com.google.android.material.button.MaterialButton
+    <com.google.android.material.button.MaterialButton
     android:id="@+id/ntButtonLogin"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
